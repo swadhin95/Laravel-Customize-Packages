@@ -1,0 +1,33 @@
+{
+    "name": "baf/acr",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "The Pondit Team",
+            "email": "info@pondit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BAF\\ACR\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "BAF\\ACR\\Providers\\ACRServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "repositories": {
+        "acr": {
+            "type": "path",
+            "url": "../bafpackages/acr"
+        }
+    }
+}
